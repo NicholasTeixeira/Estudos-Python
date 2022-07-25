@@ -1,0 +1,7 @@
+print('hello world')
+print('oi de novo')
+print('eu gostod e digitar')
+print('é bem divertido')
+print('legal')
+print("você conhece joana d' arc?")
+print('Observe "bem" esse exemplo!')
