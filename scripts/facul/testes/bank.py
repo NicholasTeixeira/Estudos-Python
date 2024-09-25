@@ -26,13 +26,11 @@ def coleta_de_dados():
     #contas2.
 
 def armazenagem_de_dados():
-    caminho_do_arquivo = os.path.join("C:/Users/Nicho/OneDrive/Documentos/GitHub/Estudos-Python/scripts/facul/testes", "dados_do_cliente.txt")
+    caminho_do_arquivo = os.path.join("D:/GitHub/estudos-python/scripts/facul/testes", "dados_do_cliente.txt")
 
     with open(caminho_do_arquivo, "a") as arquivo:
-        arquivo.write(f"Nome: {nome}\n")
-        arquivo.write(f"Sdade: {idade}\n")
-        arquivo.write(f"Saldo: {saldo}\n")
-        arquivo.write(f"Saldo: {saldo}\n")
+        arquivo.write(f"Data: {data}\n")
+        arquivo.write(f"Usuários: {contas}\n")
         arquivo.write(f"\n")
 
 def reset():
@@ -57,3 +55,4 @@ while True:
 
 armazenagem_de_dados()
 reset()
+print("Finalizando programa, Obrigado!")
