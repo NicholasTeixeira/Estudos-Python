@@ -32,7 +32,7 @@ def idade_media():
 
 # Função para armazenar os dados do dia
 def armazenar_dados():
-    caminho_do_arquivo = os.path.joi("C:/Users/Nicho/OneDrive/Documentos/GitHub/Estudos-Python/scripts/facul/algoritimo_python/forum_de_algoritimos_e_lógica_de_programação/dados", "dados_da_pesquisa.txt")
+    caminho_do_arquivo = os.path.join("D:/GitHub/estudos-python/scripts/facul/algoritimo_python/forum_de_algoritimos_e_lógica_de_programação/dados", "dados_da_pesquisa.txt")
     media_idade = idade_media()
     with open(caminho_do_arquivo, "a") as arquivo:
         arquivo.write(f"data: {data}\n")

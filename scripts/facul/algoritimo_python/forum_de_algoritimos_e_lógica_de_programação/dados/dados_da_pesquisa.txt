@@ -1,0 +1,7 @@
+data: 24.9.2024
+Total de entrevistados: 1
+Total de usuarios Android: 1
+Total de usuarios IOS: 0
+Usuarios de outros Sistemas: 0
+Idade Media dos entrevistados: None
+
